@@ -1,0 +1,108 @@
+/* Reset styles */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, ol, li, form, label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(155, 109, 209);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif; /* Use your preferred font */
+}
+
+.container {
+  width: 680px;
+  background-color: rgb(212, 212, 212);
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea {
+  text-align: center;
+}
+
+.hadis {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature i {
+  margin-right: 10px;
+}
+
+.newb {
+  color: #eee;
+  border: 1px solid #afafaf;
+  background-color: rgb(150, 110, 150);
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.newb:hover {
+  border: 1px solid #5e055e;
+  background-color: rgb(216, 193, 228);
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+/* CSS */
+/* CSS */
+.feature {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.sound, .stop {
+  color: rgb(150, 110, 150);
+  cursor: pointer;
+  margin-right: 10px; /* Add some space between the icons */
+}
+
+.newb {
+  cursor: pointer;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
