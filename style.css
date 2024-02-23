@@ -92,7 +92,9 @@ header {
   color: rgb(150, 110, 150);
   cursor: pointer;
   margin-right: 10px; /* Add some space between the icons */
+
 }
+.sound:hover
 
 .newb {
   cursor: pointer;
